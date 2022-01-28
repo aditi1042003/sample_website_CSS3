@@ -110,13 +110,12 @@
 }
 .image-grid{
 	display: grid;
-	transition: ;
 	grid-template-columns: auto auto auto;
-	grid grid-template-rows: auto auto auto ;
+	grid-template-rows: auto auto auto ;
 
 }
 .image-grid img {
-	border: 2px outset; grey;
+	border: 2px outset grey; 
 	/*border-style: groove;*/
 	margin: 5px;
 	padding: 3px;
@@ -134,5 +133,5 @@
 }
 .card-grid{
 	display: grid;
-	transition: ;
 	grid-template-columns: auto auto;
+}
