@@ -82,7 +82,7 @@
 	border: 1px solid black;
 	font-size:3vw;
 	font-weight: bold;
-	font-family:sans-serif;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	color: black;
 	background: lightgrey;
 }
@@ -132,3 +132,7 @@
 	50% {background: lightgreen;}
 	100%{background: yellow;}
 }
+.card-grid{
+	display: grid;
+	transition: ;
+	grid-template-columns: auto auto;

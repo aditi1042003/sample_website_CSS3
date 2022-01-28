@@ -1,40 +1,103 @@
 <!DOCTYPE html>
 <html>
 <head>
-	 <link rel="stylesheet" type="text/css" href="css/ch1.css">
+	 <link rel="stylesheet" type="text/css" href="mycss/ch1.css">
+	 <link rel="stylesheet" href="css/bootstrap.css">
     <meta charset="UTF-8">
-	<title>Website Styling Challenge</title>
+	<title>Website Styling</title>
 </head>
 <body>	
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container-fluid">
+		  <a class="navbar-brand" href="#">HOME</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="#">Home</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Link</a>
+			  </li>
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				  Dropdown
+				</a>
+				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+				  <li><a class="dropdown-item" href="#">Action</a></li>
+				  <li><a class="dropdown-item" href="#">Another action</a></li>
+				  <li><hr class="dropdown-divider"></li>
+				  <li><a class="dropdown-item" href="#">Something else here</a></li>
+				</ul>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link disabled">Disabled</a>
+			  </li>
+			</ul>
+			<form class="d-flex">
+			  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+			  <button class="btn btn-outline-success" type="submit">Search</button>
+			</form>
+		  </div>
+		</div>
+	  </nav>
 
 	<div class="main" id=page>
 		<div class="content">
 			<div class="main-para">
-				<h1 class="heading">Welcome to this challenge!</h1>
-				<p class="objective">Here is your list of objectives: 
+				<h1 class="heading">Welcome to this SPORTS-CLUB</h1>
+				<p class="objective">Here is our list of objectives: 
 					</p><ul class="list1">
-						<li>Lay out the Content & Sidebar</li>
-						<li>Create proper margins & spacing around items</li>
-						<li>Import & Use a Custom Font</li>
-						<li>Color Scheme: Blue & Orange (Use however you see fit!)</li>
-						<li>Style text appropriately</li>
-						<li>Change the background color of the sidebar</li>
-						<li>Style image grid however you see fit</li>
+						<li>Love sports </li>
+						<li>spacing around ground</li>
+						<li>eprehenderit in voluptate velit esse </li>
+						<li>irure dolor in reprehenderit in voluptate velit esse </li>
+						<li>Style yourself appropriately</li>
+						<li>Change the life with sports</li>
+						<!---<li>Style image grid however you see fit</li>
 						<li>Create borders around each sidebar items</li>
 						<li>Create grid/flexbox for image and text under 'Subtitle 1'</li>
 						<li>Image grow on hover</li>
 						<li>Link color change on hover</li>
-						<li>Page animation sequence for main items (Content, sidebar)</li>
+						<li>Page animation sequence for main items (Content, sidebar)</li>--->
 					</ul>
 					<p class="objective2">
-						Do not feel limited by the objectives! Change or append anything you like. Good Luck!
+						PLAY--anything you like. Good Luck!
 					</p>	
 				
 				
 			</div>
 
 			<div class="para-1">
-				<h2 class="subtitle">Subtitle 1</h2>
+				<div class="card-grid">
+					<div class="card" style="width:50% ; background-color:rgb(184, 241, 243)">
+						<img src="img/logo.jpg" class="card-img-top" alt="">
+					
+						<div class="card-body">
+						<h5 class="card-title"> IGDTUW</h5>
+						<p class="card-text"> WELCOME TO WORLD OF SPORTS</p>
+						<a href="#" class="btn btn-primary"> REGISTER!</a>
+						</div>
+					</div>
+					
+					<div class="card" aria-hidden="true" style="width: 50%; background-color: rgb(189, 247, 132);">
+						<img src="img/kho.jpg" class="card-img-top" alt="">
+						<div class="card-body">
+						<h5 class="card-title placeholder-glow"
+						style="color: black;">
+							<b>KHO-KHO</b>
+						</h5>
+						<p class="card-text placeholder-glow">
+							<i> A game of mind and stamina</i>
+			
+						</p>
+						<a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6"> VIEW</a>
+						</div>
+					</div>
+			   </div>
+				<h2 class="subtitle">ABOUT US</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat.</p>
 				<img  class="img1"src="img/img-1.jpg">
@@ -46,7 +109,7 @@
 			</div>
 			<div class="topic">
 
-				<h2 >Topic 1</h2>
+				<h2 >IMAGE GALLERY</h2>
 					<p class="topic-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua:
 						<ol class="list2">
@@ -84,7 +147,7 @@
 
 		<div class="sidebar">
 			<div class='post'>
-				<h2>Post 1</h2>
+				<h2>CRICKET</h2>
 
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
 
@@ -92,7 +155,7 @@
 			</div>	
 
 			<div class='post'>
-				<h2>Post 2</h2>
+				<h2>KABBADI</h2>
 
 				<p>Eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
@@ -100,7 +163,7 @@
 			</div>
 
 			<div class='post'>
-				<h2>Post 3</h2>
+				<h2>HOCKEY</h2>
 
 				<p>Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris.</p>
@@ -109,7 +172,7 @@
 			</div>
 
 			<div class="post">
-				<h2>Post 4</h2>
+				<h2>BADMINTON</h2>
 
 				<p>Nisi ut aliquip ex ea commodo
 				consequat, nuis aute irure.</p>
@@ -118,7 +181,7 @@
 			</div>
 
 			<div class='post'>
-				<h2>Post 5</h2>
+				<h2>MARATHON</h2>
 
 				<p>Dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
 
@@ -126,7 +189,7 @@
 			</div>
 
 			<div class='post'>
-				<h2>Post 6</h2>
+				<h2>ONLINE-LUDO</h2>
 
 				<p>Sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
@@ -134,5 +197,6 @@
 			</div>		
 		</div>
 	</div>
+	<script src="js/bootstrap.js"> </script>
 </body>
 </html>
